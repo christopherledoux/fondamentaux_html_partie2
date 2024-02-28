@@ -1,0 +1,24 @@
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+thead{
+    border-bottom: solid 2px rgba(128, 128, 128, 0.377);
+}
+td,th{
+    border: solid 1px black;
+    padding: 7px;
+}
+tbody > tr:nth-child(3){
+    border-bottom: solid 2px rgba(128, 128, 128, 0.377);
+}
+.greenData{
+    color: rgb(37, 197, 37);
+}
+.redData{
+    color: red;
+}
+tfoot{
+    text-align: center;
+    border-top: solid 2px rgba(128, 128, 128, 0.377);
+}

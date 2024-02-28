@@ -1,0 +1,33 @@
+form{
+    margin-left: 5%;
+    width: 70%;
+}
+#identity,#identity>legend{
+    background-color: #92DCE5;
+}
+#deliveryAddress,#deliveryAddress>legend{
+    background-color: #427AA1;
+}
+#settlementInformation,#settlementInformation>legend{
+    background-color: #05668D;
+}
+input,textarea{
+    border: solid 2px #A9BF04;
+    background-color: #F2D1CE;
+    border-radius: 5px;
+}
+form button{
+    border: solid 2px #D2582E;
+    background-color: #A9BF04;
+    border-radius: 5px;
+    height: 30px;
+}
+form button:hover{
+    background-color: #cae402;
+}
+ul>li{
+    list-style: none;
+}
+ol>li{
+    padding: 3px;
+}
